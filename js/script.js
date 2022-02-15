@@ -49,7 +49,7 @@ scene.add(group);
 const loader = new THREE.FontLoader();
 const textMesh = new THREE.Mesh();
 const createTypo = font => {
-  const word = "张三Manman Happy Lantern Festival";
+  const word = "Manman Happy Lantern Festival";
   const typoProperties = {
     font: font,
     size: cubeSize,
